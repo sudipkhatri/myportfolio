@@ -18,6 +18,8 @@
 .show-Menu{
     width: 70%;
     display: flex;
+    flex-wrap: wrap;
+    flex: 25%;
     flex-direction: column;
     justify-content: center;
     background-color: #fff; }
@@ -68,6 +70,7 @@
         width: 100%;
       }
       .show-Menu{
+          flex: 50%;
           width: 100%;
       }
       .list-items{
@@ -82,7 +85,7 @@
       }
       
   }
-  @media screen and (max-width:414px) {
+  @media screen and (max-width:799px) {
     .Menu-container{
         display: flex;
         justify-content: center;

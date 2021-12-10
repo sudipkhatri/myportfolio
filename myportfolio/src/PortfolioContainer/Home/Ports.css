@@ -153,7 +153,9 @@
     }
 
 }
-@media screen and (max-width:414px) {
+
+
+@media screen and (max-width:548px) {
     .profile-picture{
         height: 275px;
         width: 275px;

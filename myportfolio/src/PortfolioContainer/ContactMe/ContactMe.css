@@ -37,7 +37,7 @@
     background-color: #2EE59D;;
 }
 
-@media screen and (max-width:415px) {
+@media screen and (max-width:500px) {
     .Form input[type = text],.Form input[type = email], .Form textarea, .Form button{
     width:100%;
     }
