@@ -58,7 +58,7 @@
     width: 75%;
     background-color: #fff;  
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width: 550px) {
     .Menu-container{
         display: flex;
     }
