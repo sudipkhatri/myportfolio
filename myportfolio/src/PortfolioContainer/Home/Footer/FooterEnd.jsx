@@ -2,10 +2,9 @@ import React from 'react';
 import './Footer.css'
 
 export default function FooterEnd(){
-    const current = new Date();
-    const date =  current.getFullYear()
+    
     return(
-        <section id="footer">
+        <div className='footerdiv'>
             <div className="column">
     
 
@@ -22,13 +21,8 @@ export default function FooterEnd(){
                 </div>
             </div>
                
-                
-            <div className="text">
-                    <p> @copyright { date } </p>
-                    <p> . All right reserved.</p>
-            </div>
 
-        </section>
+        </div>
 
     )
 
